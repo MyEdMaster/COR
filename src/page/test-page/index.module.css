@@ -1,0 +1,59 @@
+.rectangle{
+    border:2px solid #CC0000;
+    color:#CC0000;
+    font-weight: bolder;
+    border-right:none;
+    background-color:#eeeeee;
+    width:169px;
+    height:29px;
+    float:left;
+    text-align:center;
+    font-size:16px;
+    margin-left: -10px;
+    cursor: pointer;
+
+}
+.selectrectangle{
+    border:2px solid #CC0000;
+    color:white;
+    font-weight: bolder;
+    border-right:none;
+    background-color:#CC0000;
+    width:169px;
+    height:29px;
+    float:left;
+    text-align:center;
+    font-size:16px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.arrow{
+    float:left;
+    -webkit-transform:rotate(45deg);
+    border:2px solid #CC0000;
+    background-color:#eeeeee;
+    width:21px;
+    height:21px;
+    position:relative;
+    top:4px;
+    left:-10px;
+    border-bottom:none;
+    border-left:none;
+    z-index: 3;
+
+}
+.arrow2{
+    float:left;
+    -webkit-transform:rotate(45deg);
+    border:2px solid #CC0000;
+    background-color:#e0e0e0;
+    width:21px;
+    height:21px;
+    position:relative;
+    top:4px;
+    z-index: 2;
+    border-bottom:none;
+    border-left:none;
+
+}

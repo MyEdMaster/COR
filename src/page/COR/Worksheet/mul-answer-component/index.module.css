@@ -1,0 +1,40 @@
+
+
+.align-end{
+    text-align: end;
+}
+
+.btn{
+    background-color: #e57373;
+    border-radius: 5px;
+    font-size: 14px;
+    color:white;
+    margin:10px 0;
+}
+.hint{
+    font-family: 'Roboto',sans-serif ;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#e57373
+}
+.answer{
+
+    font-weight: bolder;
+    color:#304ffe
+}
+.hint2{
+
+    font-size: 18px;
+    font-weight: bolder;
+    color:#e57373
+}
+.view{
+    background-color: white;
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 0 5px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #888888;
+    cursor: pointer;
+}

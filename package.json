@@ -1,0 +1,44 @@
+{
+  "name": "museum",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.0.2",
+    "echarts": "^4.5.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "mdbreact": "git+https://oauth2:HA3Lyzg_ziCJX8WTS113@git.mdbootstrap.com/mdb/react/re-pro.git",
+    "mysql": "^2.18.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-animated-router": "^0.1.12",
+    "react-dom": "^16.8.4",
+    "react-floater": "^0.6.5",
+    "react-guided-tour": "^1.0.0",
+    "react-joyride": "^2.1.1",
+    "react-katex": "^2.0.2",
+    "react-pdf": "^4.1.0",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "2.1.8",
+    "react-transition-group": "^2.3.0",
+    "reactour": "^1.15.4",
+    "styled-components": "^4.0.0",
+    "video-react": "^0.14.1",
+    "webkit": "^0.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {}
+}

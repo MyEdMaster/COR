@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+    font-family:'Rajdhani', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap')
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+}
+
+.font{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.float{
+    position:fixed;
+    left:0px;
+    top:210px;
+    z-index: 999;
+}
+.rectangle{
+    border:2px solid #CC0000;
+    color:#CC0000;
+    font-weight: bolder;
+    background-color:#eeeeee;
+    width:169px;
+    height:29px;
+    float:left;
+    text-align:center;
+    font-size:16px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.selectrectangle{
+    border:2px solid #CC0000;
+    color:white;
+    font-weight: bolder;
+    border-right:none;
+    background-color:#CC0000;
+    width:169px;
+    height:29px;
+    float:left;
+    text-align:center;
+    font-size:16px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.arrow{
+    float:left;
+    -webkit-transform:rotate(45deg);
+    border:2px solid #CC0000;
+    background-color:#eeeeee;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:4px;
+    left:-10px;
+    border-bottom:none;
+    border-left:none;
+    z-index: 3;
+
+}
+.selectarrow{
+    float:left;
+    -webkit-transform:rotate(45deg);
+    border:2px solid #CC0000;
+    background-color:#CC0000;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:4px;
+    left:-10px;
+    border-bottom:none;
+    border-left:none;
+    z-index: 3;
+
+}
+.arrow2{
+    float:left;
+    -webkit-transform:rotate(45deg);
+    border:2px solid #CC0000;
+    background-color:#e0e0e0;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:4px;
+    z-index: 2;
+    border-bottom:none;
+    border-left:none;
+
+}
+
+
+.menubar{
+    cursor: pointer;
+    border-style:solid;
+    border-width:0 0 1px 5px;
+    border-color: white white #7e57c2 white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px 0;
+
+}
+.menubar:hover{
+    border-style:solid;
+    border-width:0 0 1px 5px;
+    border-color: #F1831D;
+    color: #F1831D;
+    transition: all 0.2s ease-in-out;
+
+}
+.selectmenubar{
+    cursor: pointer;
+    border-style:solid;
+    border-width:0 0 1px 5px;
+    color:#F1831D;
+    border-color: #F1831D;
+    padding: 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
