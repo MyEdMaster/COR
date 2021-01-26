@@ -3,7 +3,7 @@ import React from 'react';
 import {MDBRow, MDBCol,MDBBtn,MDBIcon} from 'mdbreact'
 
 import classes from './index.module.css'
-import {InlineMath} from "react-katex";
+// import {InlineMath} from "react-katex";
 
 
 

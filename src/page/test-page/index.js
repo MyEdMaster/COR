@@ -1,7 +1,7 @@
 //import React from "react";
 
 
-import 'hopscotch/dist/css/hopscotch.css';
+// import 'hopscotch/dist/css/hopscotch.css';
 import React, { Component } from 'react';
 import classes from './index.module.css'
 

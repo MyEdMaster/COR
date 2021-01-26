@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Redirect, Route, Switch} from 'react-router-dom';
 import {BrowserRouter, HashRouter} from 'react-router-dom';
 //import AnimatedRouter from 'react-animated-router';
-import 'react-animated-router/animate.css';
+// import 'react-animated-router/animate.css';
 import {TestPage} from "./page/test-page";
 import {COR} from "./page/COR";
 

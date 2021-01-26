@@ -9,7 +9,7 @@ import {cancelSyn, handleSyn} from "../../RRH/Component/speech-syn";
 import {url} from "../../../tool/fetch-help";
 import {AnswerComponent} from "./answer-component";
 import {MulAnswerComponent} from "./mul-answer-component";
-import Joyride from 'react-joyride';
+// import Joyride from 'react-joyride';
 
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;

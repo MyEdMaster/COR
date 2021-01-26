@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
     MDBContainer,
-    MDBScrollbar,
+    // MDBScrollbar,
     MDBSideNavCat,
     MDBSideNavItem,
     MDBSideNavNav,
@@ -114,7 +114,7 @@ export class CORPdf extends React.Component {
                         this.state.toggle?(
                             <div style={outerContainerStyle} className="col-md-4 d-flex p-0">
                                 <div> <div className='red-text h2 grey lighten-3 mb-0 pl-4'>Contents</div>
-                                    <MDBScrollbar>
+                                    {/* <MDBScrollbar>
                                         <div>
                                             {
                                                 render &&
@@ -128,7 +128,7 @@ export class CORPdf extends React.Component {
                                                 </Document>
                                             }
                                         </div>
-                                    </MDBScrollbar>
+                                    </MDBScrollbar> */}
                                 </div>
                                 <div
                                     className={`red-text h4 grey lighten-3 mb-0 px-2`}

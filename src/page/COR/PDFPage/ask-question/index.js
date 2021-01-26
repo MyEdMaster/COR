@@ -7,7 +7,7 @@ import {handleSyn} from "../../../RRH/Component/speech-syn";
 import {cancelSyn} from "../../../RRH/Component/speech-syn";
 import q from './q.png'
 import {url} from "../../../../tool/fetch-help";
-import Joyride from 'react-joyride';
+// import Joyride from 'react-joyride';
 import {handleStuAskQues} from "../../../../tool/report_system";
 
 
@@ -295,7 +295,7 @@ export class AskQuestionCOR extends React.Component {
         const { steps } = this.state;
         return (
             <div>
-                <Joyride
+                {/* <Joyride
                     steps={steps}
                     continuous={true}
                     scrollToFirstStep={true}
@@ -308,7 +308,7 @@ export class AskQuestionCOR extends React.Component {
                             zIndex: 1000,
                         }
                     }}
-                />
+                /> */}
 
                 <div className={classes.fixed1}>
                     <button style={{backgroundColor: 'transparent',borderColor:'0'}} className="button button rrh" onClick={this.toggle(2)}>

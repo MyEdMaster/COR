@@ -6,7 +6,7 @@ import {MDBBtn, MDBCard, MDBCol, MDBIcon, MDBModalBody, MDBRow} from "mdbreact";
 import {handleSyn} from "../../RRH/Component/speech-syn";
 import {cancelSyn} from "../../RRH/Component/speech-syn";
 import {url} from "../../../tool/fetch-help";
-import Joyride from 'react-joyride';
+// import Joyride from 'react-joyride';
 import {handleSysAskQues} from "../../../tool/report_system";
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -356,7 +356,7 @@ export class CORQA extends React.Component {
             return (
                 <div className={`${classes.body} align-content-center w-100 h-100 text-center`}>
                     {/*{cancelSyn()}*/}
-                    <Joyride
+                    {/* <Joyride
                         steps={steps}
                         continuous={true}
                         scrollToFirstStep={true}
@@ -367,7 +367,7 @@ export class CORQA extends React.Component {
                                 zIndex: 1000,
                             }
                         }}
-                    />
+                    /> */}
 
                     <div className="d-flex align-items-baseline justify-content-center">
                         <div className={classes.title1}>
