@@ -105,6 +105,7 @@ export class CORPdf extends React.Component {
             ),
         };
         const outerContainerStyle = {width:'auto', height: "792px" };
+        const scrollContainerStyle = {width:'auto', maxHeight:'792px', overflow:'auto'}
         return (
 
             <div>
@@ -114,8 +115,8 @@ export class CORPdf extends React.Component {
                         this.state.toggle?(
                             <div style={outerContainerStyle} className="col-md-4 d-flex p-0">
                                 <div> <div className='red-text h2 grey lighten-3 mb-0 pl-4'>Contents</div>
-                                    {/* <MDBScrollbar>
-                                        <div>
+                                    {/* <MDBScrollbar> */}
+                                        <div style= {scrollContainerStyle}>
                                             {
                                                 render &&
                                                 <Document
@@ -128,7 +129,7 @@ export class CORPdf extends React.Component {
                                                 </Document>
                                             }
                                         </div>
-                                    </MDBScrollbar> */}
+                                    {/* </MDBScrollbar> */}
                                 </div>
                                 <div
                                     className={`red-text h4 grey lighten-3 mb-0 px-2`}
